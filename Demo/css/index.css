@@ -1,3 +1,6 @@
+a {
+    color: black;
+}
 div.nav-box {
     height: 90px;
     font-size: 16px;
@@ -12,7 +15,9 @@ div.header-left {
     height: 80%;
     width: 50%;
     float: left;
+    margin-top: -10px;
     margin-left: -10px;
+
 }
 div.header-right {
     height: 80%;
@@ -145,11 +150,110 @@ img.invent-img {
 div.news-block {
     width: 100%;
     height: 93%;
-    /*position: absolute;*/
-    /*bottom: 0;*/
     background: #f1f1f1;
     padding: 10px;
 }
 p.news-text {
     height: 40px;
+}
+/*footer*/
+div.contact-box {
+    height: 66px;
+    background: #f1f1f1;
+
+    /*vertical-align: middle;*/
+}
+div.row-contact {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 8%;
+}
+p.contact-text {
+    font-size: 14px;
+}
+img.weixin {
+    width: 44px;
+    height: 44px;
+    margin-left: 5px;
+}
+/*下面的footer-box*/
+.footer-box {
+    height: 230px;
+    width: 100%;
+    padding: 20px 15px;
+    background: #d9d9d9;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    /*box-sizing: border-box;*/
+}
+div.footer-container {
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*文字矩阵*/
+div.footer-row1 {
+    width: 100%;
+    height: 130px;
+}
+.row1-left {
+    width: 50%;
+    float: left;
+}
+ul.footer-list1 {
+    margin-left: -15px;
+}
+li.list1-sub {
+    float: left;
+    list-style: none;
+}
+li.sub-text {
+    list-style: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/*二维码排列*/
+div.row1-right {
+    /*width: 50%; !*宽度限制不起作用*!*/
+    /*float: left;*/
+    /*padding-left: 50%;*/
+}
+ul.footer-list2 {
+    width: 50%;
+    float: left;
+    padding-left: 10%;
+}
+ul.footer-list2 img{
+    width: 82px;
+    height: 82px;
+}
+p.QR-text {
+    text-align: center;
+}
+ul.footer-list2 li {
+    display: inline-block;
+    margin-left: 11%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+ul.footer-row2 {
+    border-top: 1px solid white; /*白线*/
+    padding-top: 20px;
+    /*padding-left: -200px;*/
+}
+ul.footer-row2 li{
+    display: inline-block;
+    /*padding-left: 5%;*/
+}
+li.footer-text {
+    padding-left: 2%;
+}
+ul.footer-map li {
+    margin-left: 5px;
+}
+ul.footer-map {
+    margin-left: -80px;
 }
